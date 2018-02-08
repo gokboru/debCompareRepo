@@ -1,8 +1,11 @@
+
+##IKI PAKET DOSYASI ARASINDA AYNI PAKETLERİ, FARKLI PAKETLERİ, FARKLI VERSIYONDAKI AYNI PAKETLERİ
+##AYRI AYRI LİSTELERE AYIRAN PYTHON KODU
 import sys
 import re
 
 ######
-# https://github.com/nyucel/pardus-check/blob/master/get_package_info.py
+# https://github.com/gokboru/debCompareRepo/edit/master/CheckAll.py
 ######
 def get_package_info(package_info, info):
     return re.search(info+": (.*)", package_info).group(1)
